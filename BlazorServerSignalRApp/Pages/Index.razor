@@ -3,9 +3,40 @@
 @inject NavigationManager Navigation
 @implements IAsyncDisposable
 
+
 <PageTitle>Index</PageTitle>
 
-<div class="form-group">
+<section class="msger">
+    <header class="msger-header">
+        <div class="msger-header-title">
+            <i class="fas fa-comment-alt"></i> SimpleChat
+        </div>
+    </header>
+    <main class="msger-chat">
+        <div class="msg left-msg">
+            <div class="msg-img"
+                 style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+            <div class="msg-bubble">
+                @foreach (var message in messages)
+                {
+                    <div class="msg-text">
+                        @message
+                    </div>
+                }
+            </div>
+        </div>
+    </main>
+
+    <form class="msger-inputarea">
+        <input type="text" @bind="userInput" placeholder="Enter UserName.." />
+        <input type="text" class="msger-input" @bind="messageInput" placeholder="Enter your message..." size="50">
+    </form>
+    <div class="col-md-1">
+    <button @onclick="Send" disabled="@(!IsConnected)" class="btn btn-success">Send</button>
+    </div>
+</section>
+
+@* <div class="form-group">
     <label>
         User:
         <input @bind="userInput" />
@@ -17,7 +48,7 @@
         <input @bind="messageInput" size="50" />
     </label>
 </div>
-<button @onclick="Send" disabled="@(!IsConnected)">Send</button>
+<button @onclick="Send" disabled="@(!IsConnected)" class="msger-send-btn">Send</button>
 
 <hr>
 
@@ -26,7 +57,7 @@
     {
         <li>@message</li>
     }
-</ul>
+</ul> *@
 
 @code {
     private HubConnection? hubConnection;

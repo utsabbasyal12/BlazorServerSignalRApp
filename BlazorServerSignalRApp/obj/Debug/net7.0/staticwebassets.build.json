@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gZo2Dkppb+kYnYOVYE0GVdL82kb+D9MOmuwuNU/o8IY=",
+  "Hash": "1b1vM6JSNTsg7q9lr17uqkr2H0MGK6svp+KdzMUqdhM=",
   "Source": "BlazorServerSignalRApp",
   "BasePath": "_content/BlazorServerSignalRApp",
   "Mode": "Default",
@@ -255,6 +255,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "D:\\Blazor Learning\\SignalR\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\wwwroot\\css\\style.css",
+      "SourceId": "BlazorServerSignalRApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Blazor Learning\\SignalR\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\wwwroot\\",
+      "BasePath": "_content/BlazorServerSignalRApp",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "D:\\Blazor Learning\\SignalR\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\wwwroot\\favicon.png",
       "SourceId": "BlazorServerSignalRApp",
       "SourceType": "Discovered",
@@ -270,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "D:\\Blazor Learning\\SignalR\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\wwwroot\\js\\chat.js",
+      "SourceId": "BlazorServerSignalRApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Blazor Learning\\SignalR\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\wwwroot\\",
+      "BasePath": "_content/BlazorServerSignalRApp",
+      "RelativePath": "js/chat.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
     }
   ]
 }

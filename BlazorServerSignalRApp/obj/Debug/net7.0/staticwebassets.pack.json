@@ -53,8 +53,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\Blazor Learning\\SignalR\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "D:\\Blazor Learning\\SignalR\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Blazor Learning\\SignalR\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorServerSignalRApp.Microsoft.AspNetCore.StaticWebAssets.props",
